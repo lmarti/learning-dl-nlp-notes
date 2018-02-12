@@ -5,7 +5,7 @@ This is an opinionated meta-tutorial with materials directed towards learning de
 
 I have tried to link, whenever possible, freely alternatives to the materials.
 
-Comments are welcome and expected! 
+Comments are welcome and expected!
 
 * If you find an error, open a [issue](https://github.com/lmarti/learning-dl-nlp-notes/issues).
 * If you think that I am missing something, create a [pull request](https://github.com/lmarti/learning-dl-nlp-notes/pulls) with the changes.
@@ -16,5 +16,7 @@ Comments are welcome and expected!
 Notes are organized in three groups. Each group has a set of prerequisites and a skill checklist that you should pass.
 
 1. [Bootcamp](Bootcamp.md),
-* Extra credit, and
-* Technical setup.
+2. [Advanced topics](Advanced.md), and
+3. [Technical setup](Technical.md).
+
+I have added a [Reading list](Reading.md) for interesting materials.
