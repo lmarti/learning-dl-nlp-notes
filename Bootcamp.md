@@ -30,6 +30,10 @@ Once you master the essential elements you can move into deeper waters to also g
 
 > So far, I prefer Oxford's but I am still deciding.
 
+#### Other tutorials to check
+
+* [Machine Learning with Python](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+
 ## Books
 
 In practice, it is unlikely that you have the time to read whole books. I am listing some here that I personally like and you could use as reference of support when taking the tutorials.
@@ -38,6 +42,10 @@ In practice, it is unlikely that you have the time to read whole books. I am lis
 
 1. Nikhil Buduma (2017) Fundamentals of Deep Learning. O'Reilly Media, Sebastopol, CA.
 > Recommended if you want a fast introduction, albeit losing some (mostly theoretical) details. This book is perhaps too succinct. On the other hand, if you are a programmer, I think you want a direct explanation and running code with of the whole picture and then drill down into the details.
+
+### Books with online materials
+
+‎* S. Raschka and V. Mirjalili (2017) Python Machine Learning, 2nd Edition [GitHub repo](https://github.com/rasbt/python-machine-learning-book-2nd-edition)
 
 ### Reference books
 
@@ -69,35 +77,36 @@ See [Technical setup](Technical.md) for details on installing.
 ## Bootcamp skill checklist
 
 * **Machine Learning basics**
-	* Linear regression.
-	* Linear classification and logistic regression.
-	* Experimental methodology: train/test/validate, cross-validation.
-	* Performance assessment: Machine Learning and Performance Evaluation — Overcoming the Selection Bias
-	* Reporting results and visualization.
-	* Hyperparameter optimization: grid search.
+  * Linear regression.
+  * Linear classification and logistic regression.
+  * Experimental methodology: train/test/validate, cross-validation.
+  * Performance assessment: Machine Learning and Performance Evaluation — Overcoming the Selection Bias
+  * Reporting results and visualization.
+  * Parameter optimization, grid search.
 * **Multilayer Perceptrons (MLPs)** ([slides](nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/04.%20Artificial%20neural%20networks.ipynb)):
-	* Need for more than one layer of neurons.
-	* Gradient descent and error backpropagation.
-	* Stochastic gradient descent.
-	* Designing neural networks, choice of activation functions on each layer.
+  * Need for more than one layer of neurons.
+  * Gradient descent and error backpropagation.
+  * Stochastic gradient descent.
+  * Designing neural networks, choice of activation functions on each layer.
 * **Deep Learning** ([slides](nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/06.%20Deep%20Learning.ipynb)):
-	*  Why can't you train a *plain* MLP with many layers?: vanishing gradients.
-	*  Going deep one layer at a time: stacked auto-encoders.
+  *  Why can't you train a *plain* MLP with many layers: vanishing gradients.
+  *  Going deep one layer at a time: stacked auto-encoders.
 * Convolutional Neural Networks (CNNs):
-	* 	Why MLPs can't handle images.
-	*  Notion of weight sharing.
-	*  Convolutional layer,
-	*  Pooling layer.
+  * 	Why MLPs can't handle images.
+  * 	Notion of weight sharing.
+  * 	Convolutional layer,
+  * 	Pooling layer.
 * **Recurrent Neural Networks (RNNs)**
-	- Basic from MLPs to RNNs.
-	- RNN challenges.
-	- Long short-term memories (LSTMs).
+  - Basic from MLPs to RNNs.
+  - RNN challenges.
+  - Long short-term memories (LSTMs).
 * **Natural Language Processing**
-	- Statistical / Bayesian concepts.
-	- Understanding HMMs.
-	- NLP problems: part-of-speech tagging, named-entities recognition, etc.
-	- N-gram concepts.
-	- Bag of words.
-	- TF-IDF.
-	- word2vec, [resources](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
-	- glovec, doc2vec.
+  - Statistical / Bayesian concepts.
+  - Understanding HMMs.
+  - NLP problems: part-of-speech tagging, named-entities recognition, etc.
+  - N-gram concepts.
+  - Bag of words.
+  - TF-IDF.
+  - word2vec, [resources](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
+  - glovec, doc2vec.
+  - In progress…

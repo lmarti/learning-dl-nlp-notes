@@ -27,6 +27,8 @@ The image is extends tensorflow's. It is a Ubuntu Linux with CUDA, cuDNN, and th
 2. If you are a GUI person, check out [Kitematic](https://kitematic.com).
 2. If you have a GPU  and Linux on your computer you should use to install nvidia-docker: https://github.com/NVIDIA/nvidia-docker
 
+*Note:* Check https://github.com/aamini/introtodeeplearning_labs/blob/master/WindowsDocker.md for detailed instructions.
+
 To create an instance of the image you must Run the command:
 ```bash
 $ docker run -it -p 5678:8888 -v /home/lmarti/git/my-learning-folder:/notebooks/learning lmarti/dl
@@ -64,4 +66,10 @@ Remember that any changes that you do inside the container will be lost between 
 
 ## Online services
 
-* Jupyter notebooks can be statically rendered online on https://nbviewer.jupyter.org 
+* Jupyter notebooks can be statically rendered online on https://nbviewer.jupyter.org
+* To run an online Jupyter notebook use [binder](https://mybinder.org)
+* [Google Colaboratory](https://colab.research.google.com), a free online Jupyter notebook-based enviroment. To my surprise they let you use a NVidia Tesla K80 GPU for free with a 12h limit.
+  On their own words:
+  > Colaboratory is a Google research project created to help disseminate machine learning education and research. It's a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud.
+
+  > Colaboratory notebooks are stored in [Google Drive](https://drive.google.com) and can be shared just as you would with Google Docs or Sheets. Colaboratory is free to use.
