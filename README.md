@@ -8,10 +8,13 @@ I have tried to link, whenever possible, freely alternatives to the materials.
 Comments are welcome and expected! 
 
 * If you find an error, open a [issue](https://github.com/lmarti/learning-dl-nlp-notes/issues).
-* If you feel that I am missing something, create a [pull request](https://github.com/lmarti/learning-dl-nlp-notes/pulls) with the changes.
+* If you think that I am missing something, create a [pull request](https://github.com/lmarti/learning-dl-nlp-notes/pulls) with the changes.
 
-Notes are organized in three groups:
 
-* [Bootcamp](Bootcamp.md),
+## Organization
+
+Notes are organized in three groups. Each group has a set of prerequisites and a skill checklist that you should pass.
+
+1. [Bootcamp](Bootcamp.md),
 * Extra credit, and
 * Technical setup.
