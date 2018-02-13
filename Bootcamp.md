@@ -21,7 +21,7 @@ Start by shorter tutorials to get an overall understanding of the area. I recomm
 
 Now you are ready for a more challenging one:
 
-* [Practical Deep Learning For Coders, Part 1](course.fast.ai/index.html)
+* [Practical Deep Learning For Coders, Part 1](http://course.fast.ai/index.html)
 
 Once you master the essential elements you can move into deeper waters to also grasp the NLP elements we need. So far, I recommend you to take one of these:
 
@@ -60,7 +60,6 @@ In practice, it is unlikely that you have the time to read whole books. I am lis
 2. Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, *Introduction to Information Retrieval*, Cambridge University Press. 2008. [online](https://nlp.stanford.edu/IR-book/)
 > Classical book with all the basics.
 
-
 ## Libraries to master at this level
 
 * Numpy/scipy
@@ -83,25 +82,30 @@ See [Technical setup](Technical.md) for details on installing.
   * Performance assessment: Machine Learning and Performance Evaluation — Overcoming the Selection Bias
   * Reporting results and visualization.
   * Parameter optimization, grid search.
-* **Multilayer Perceptrons (MLPs)** ([slides](nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/04.%20Artificial%20neural%20networks.ipynb)):
+
+* **Multilayer Perceptrons (MLPs)** ([slides](https://nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/04.%20Artificial%20neural%20networks.ipynb)):
   * Need for more than one layer of neurons.
   * Gradient descent and error backpropagation.
   * Stochastic gradient descent.
   * Designing neural networks, choice of activation functions on each layer.
-* **Deep Learning** ([slides](nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/06.%20Deep%20Learning.ipynb)):
+
+* **Deep Learning** ([slides](https://nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/06.%20Deep%20Learning.ipynb)):
   *  Why can't you train a *plain* MLP with many layers: vanishing gradients.
   *  Going deep one layer at a time: stacked auto-encoders.
+
 * Convolutional Neural Networks (CNNs):
   * 	Why MLPs can't handle images.
   * 	Notion of weight sharing.
   * 	Convolutional layer,
   * 	Pooling layer.
+
 * **Recurrent Neural Networks (RNNs)**
   - Basic from MLPs to RNNs.
   - RNN challenges.
   - Long short-term memories (LSTMs).
+
 * **Natural Language Processing**
-  - Statistical / Bayesian concepts.
+  - Statistical/Bayesian concepts.
   - Understanding HMMs.
   - NLP problems: part-of-speech tagging, named-entities recognition, etc.
   - N-gram concepts.

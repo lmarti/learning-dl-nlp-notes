@@ -13,10 +13,7 @@ Comments are welcome and expected!
 
 ## Organization
 
-Notes are organized in three groups. Each group has a set of prerequisites and a skill checklist that you should pass.
+Notes are organized in two groups.
 
-1. [Bootcamp](Bootcamp.md),
-2. [Advanced topics](Advanced.md), and
-3. [Technical setup](Technical.md).
-
-I have added a [Reading list](Reading.md) for interesting materials.
+1. [Bootcamp](Bootcamp.md), which has a set of prerequisites and a skill checklist that you should pass. and
+2. [Technical setup](Technical.md).

@@ -13,7 +13,9 @@ There are three ways: the local Python setup, the docker image/container and the
 
 If your are going after this way, I recommend you to install [Anaconda's Python distribution](https://www.anaconda.com/download/) that corresponds to your platform. Anaconda comes with a much of the libraries you are going to need. Remember that if you want to try some minimally advanced deep learning stuff you need a GPU.
 
-Anaconda installs `conda`, a command line tool for installing/updating packages. There is a GUI for this that I haven't tried.
+Anaconda installs `conda`, a command line tool for installing/updating packages. There is a GUI for this task too.
+
+* conda cheat sheet: https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 
 ## Using a docker image
 
@@ -68,8 +70,8 @@ Remember that any changes that you do inside the container will be lost between 
 
 * Jupyter notebooks can be statically rendered online on https://nbviewer.jupyter.org
 * To run an online Jupyter notebook use [binder](https://mybinder.org)
-* [Google Colaboratory](https://colab.research.google.com), a free online Jupyter notebook-based enviroment. To my surprise they let you use a NVidia Tesla K80 GPU for free with a 12h limit.
+* [Google Colaboratory](https://colab.research.google.com), a free online Jupyter notebook-based enviroment. They let you use a NVidia Tesla K80 GPU for free with a 12h limit.
+
   On their own words:
   > Colaboratory is a Google research project created to help disseminate machine learning education and research. It's a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud.
-
   > Colaboratory notebooks are stored in [Google Drive](https://drive.google.com) and can be shared just as you would with Google Docs or Sheets. Colaboratory is free to use.
