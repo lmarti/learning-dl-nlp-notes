@@ -1,4 +1,4 @@
-# On Learning Deep Learning and Natural language processing
+# On Learning Deep Learning and Natural Language Processing
 
 
 This is an opinionated meta-tutorial with materials directed towards learning deep learning and its application to natural language processing. My intention is to create a concise, usable and fast to go through collection meant for a programming-savvy audience.
