@@ -90,14 +90,14 @@ See [Technical setup](Technical.md) for details on installing.
   * Designing neural networks, choice of activation functions on each layer.
 
 * **Deep Learning** ([slides](https://nbviewer.jupyter.org/github/lmarti/machine-learning/blob/master/06.%20Deep%20Learning.ipynb)):
-  *  Why can't you train a *plain* MLP with many layers: vanishing gradients.
-  *  Going deep one layer at a time: stacked auto-encoders.
+  - Why can't you train a *plain* MLP with many layers: vanishing gradients.
+  - Going deep one layer at a time: stacked auto-encoders.
 
-* Convolutional Neural Networks (CNNs):
-  * 	Why MLPs can't handle images.
-  * 	Notion of weight sharing.
-  * 	Convolutional layer,
-  * 	Pooling layer.
+* **Convolutional Neural Networks (CNNs)**:
+  - Why MLPs can't handle images?
+  - Notion of weight sharing.
+  - Convolutional layer,
+  - Pooling layer.
 
 * **Recurrent Neural Networks (RNNs)**
   - Basic from MLPs to RNNs.
