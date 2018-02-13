@@ -15,6 +15,7 @@ If your are going after this way, I recommend you to install [Anaconda's Python 
 
 Anaconda installs `conda`, a command line tool for installing/updating packages. There is a GUI for this task too.
 
+* Learn conda in 15 minutes: https://conda.io/docs/user-guide/getting-started.html
 * conda cheat sheet: https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 
 ## Using a docker image
