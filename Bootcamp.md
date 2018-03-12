@@ -104,9 +104,12 @@ See [Technical setup](Technical.md) for details on installing.
   - Pooling layer.
 
 * **Recurrent Neural Networks (RNNs)**
-  - Basics from MLPs to RNNs
-  - RNN challenges
-  - Long short-term memories (LSTMs)
+  - Basics from MLPs to RNNs.
+  - RNN challenges.
+  - Long short-term memories (LSTMs).
+  - Teacher forcing.
+  - Professor forcing.
+  - Recursive neural networks.
 
 ## Computational linguistics and natural language processing check list
 
