@@ -70,7 +70,7 @@ If it runs ok you should get a log like this:
         http://localhost:8888/?token=245233e46f92e7092387f23ead6aa2f01d2f20611336a2be
 ```
 
-Now you can open a web browser and point it to http://localhost:5678 and you will be connected to your docker. You will need to copy/paste that long token as it will be required (you can change this in the configuration of the image). This can be removed if you want.
+Now you can open a web browser and point it to `http://localhost:5678` and you will be connected to your docker. You will need to copy/paste that long token as it will be required (you can change this in the configuration of the image). This can be removed if you want.
 
 If you are running the image in a cloud service (MS Azure) you might need to create an SSH tunnel.
 
@@ -81,4 +81,4 @@ Remember that any changes that you do inside the container will be lost between 
 * Jupyter notebooks can be statically rendered online on https://nbviewer.jupyter.org
 * To run an online Jupyter notebook use [binder](https://mybinder.org)
 * [Google Colaboratory](https://colab.research.google.com), a free online Jupyter notebook-based environment. They let you use a NVidia Tesla K80 GPU for free with a 12h limit.
-* [FloidHub](https://www.floydhub.com) FloydHub comes with fully configured CPU and GPU environments primed for deep learning. It includes CUDA, cuDNN and popular frameworks like Tensorflow, Keras and Torch.
+* [FloydHub](https://www.floydhub.com) FloydHub comes with fully configured CPU and GPU environments primed for deep learning. It includes CUDA, cuDNN and popular frameworks like Tensorflow, Keras and Torch.
